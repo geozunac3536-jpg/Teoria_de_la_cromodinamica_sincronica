@@ -1,0 +1,1 @@
+# Teor-a_de_la_cromodinamica_sincronica
