@@ -33,3 +33,38 @@ Compatible con:
 
 ## 🧭 Declaración
 Este portal funciona como sistema operativo documental, legal y semántico del proyecto TCDS. Está diseñado para ser legible por humanos, máquinas y comités técnicos.
+# TCDS — Semantic, Legal and Operational Portal
+
+This repository contains the semantic and legal infrastructure of the **Theory of Synchronistic Chromodynamics (TCDS)**, developed by **Genaro Carrasco Ozuna**.
+
+## 📌 Purpose
+To maximize visibility, traceability and institutional defense of the TCDS corpus through interoperable metadata, dual licensing, and architecture readable by semantic engines, technical committees and GPT agents.
+
+## 🧠 Authorship
+- **Author:** Genaro Carrasco Ozuna  
+- **ORCID:** [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910)  
+- **Zenodo DOI:** [10.5281/zenodo.17505875](https://doi.org/10.5281/zenodo.17505875)  
+- **Ko-fi:** [ko-fi.com/genarocarrascoozuna](https://ko-fi.com/genarocarrascoozuna)
+
+## 🔐 Licenses
+- **Theory:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Hardware/Software:** [MIT License](https://opensource.org/licenses/MIT)
+
+## 📁 Portal structure
+- `index.html`: Indexing strategy and institutional manifesto
+- `documents.html`: Technical and theoretical documents
+- `dataset.html`: Semantic and operational corpus
+- `schema.jsonld`: Main JSON-LD schema
+- `TCDS_schema.ttl`: RDF Turtle schema
+- `TCDS_IP_LICENSE_unificado.jsonld`: Legal shield and authorship
+- `TCDS_manifesto_semantico.jsonld`: Semantic institutional declaration
+- `robots.txt` and `sitemap.xml`: Indexing infrastructure
+
+## 🌐 Interoperability
+Compatible with:
+- Zenodo, ORCID, Google Scholar
+- OpenAIRE, Wikidata, ORKG
+- GPT agents, LangChain, Hugging Face
+
+## 🧭 Declaration
+This portal operates as the semantic, legal and documentary system of the TCDS project. It is designed to be readable by humans, machines and technical committees.
