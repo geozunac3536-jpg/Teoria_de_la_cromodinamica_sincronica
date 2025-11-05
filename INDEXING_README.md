@@ -1,52 +1,78 @@
-# Estrategia de indexación TCDS
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TCDS — Portal Semántico y Legal</title>
 
-## Objetivo
-Maximizar descubribilidad en Google, Bing, y crawlers de IA, preservando trazabilidad Σ-metrics.
-<script type="application/ld+json" src="TCDS_IP_LICENSE_unificado.jsonld"></script>
-## Pasos
-1. **Schema unificado**: publique `TCDS_schema_extended.jsonld` en `/schema.jsonld` y enlácelo en `<head>`.
-2. **RDF paralelo**: publique `TCDS_schema.ttl` y enlace desde `schema.jsonld` (`distribution`).
-3. **Sitemaps**: sirva `sitemap.xml` y declare en `robots.txt`.
-4. **Páginas canónicas**: defina `<link rel="canonical">` en `index.html`, `documents.html`, `dataset.html`.
-5. **Datos descargables**: mantenga URLs estables para `.jsonld` y `.ttl`; evite parámetros.
-6. **PDFs**: añada `<meta name="citation_title">` y `schema:CreativeWork` por PDF con enlaces internos.
-7. **Zenodo/DOI**: añada `sameAs` con `https://doi.org/10.5281/zenodo.17505875`.
-8. **OpenGraph/Twitter**: agregue `og:title`, `og:description`, `og:url`, `og:type=website`.
-9. **Performance**: PageSpeed > 90. Sirva estáticos con `Cache-Control: public, max-age=604800`.
-10. **Accesibilidad**: `lang="es"`, etiquetas ARIA, contraste AA.
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://geozunac3536-jpg.github.io/TCDS-PORTAL/">
 
-## Colocación
-- `index.html`: inyecte `<script type="application/ld+json" src="schema.jsonld"></script>`.
-- `documents.html` y `dataset.html`: repita `WebSite`, `CollectionPage` y `Dataset` con `@id` idénticos.
+  <!-- Metadatos semánticos -->
+  <script type="application/ld+json" src="TCDS_manifesto_semantico.jsonld"></script>
+  <script type="application/ld+json" src="TCDS_IP_LICENSE_unificado.jsonld"></script>
+  <script type="application/ld+json" src="schema.jsonld"></script>
 
-## Plantillas
-**robots.txt**
-```
-User-agent: *
+  <!-- Metadatos sociales -->
+  <meta property="og:title" content="TCDS — Portal de Documentos">
+  <meta property="og:description" content="Infraestructura semántica, legal y operativa del proyecto TCDS.">
+  <meta property="og:url" content="https://geozunac3536-jpg.github.io/TCDS-PORTAL/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Accesibilidad y rendimiento -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h1>Estrategia de Indexación Semántica — TCDS</h1>
+
+  <h2>Autoría y Blindaje Legal</h2>
+  <p>Autor: Genaro Carrasco Ozuna<br>
+     ORCID: <a href="https://orcid.org/0009-0005-6358-9910">0009-0005-6358-9910</a><br>
+     DOI Zenodo: <a href="https://doi.org/10.5281/zenodo.17505875">10.5281/zenodo.17505875</a><br>
+     Licencia: CC BY-NC-SA 4.0 (teoría) + Propietaria (hardware)</p>
+
+  <h2>Objetivo</h2>
+  <p>Maximizar la visibilidad en buscadores y crawlers de IA, preservando trazabilidad de Σ-metrics y blindaje institucional.</p>
+
+  <h2>Pasos Estratégicos</h2>
+  <ol>
+    <li><strong>Schema unificado:</strong> Publicar <code>schema.jsonld</code> e inyectar en <code>&lt;head&gt;</code>.</li>
+    <li><strong>RDF paralelo:</strong> Publicar <code>TCDS_schema.ttl</code> y vincular desde <code>schema.jsonld</code>.</li>
+    <li><strong>Sitemaps:</strong> Servir <code>sitemap.xml</code> y declarar en <code>robots.txt</code>.</li>
+    <li><strong>Páginas canónicas:</strong> Definir <code>&lt;link rel="canonical"&gt;</code> en cada página principal.</li>
+    <li><strong>Datos descargables:</strong> Mantener URLs estables para <code>.jsonld</code> y <code>.ttl</code>.</li>
+    <li><strong>PDFs:</strong> Añadir <code>&lt;meta name="citation_title"&gt;</code> y nodos <code>schema:CreativeWork</code>.</li>
+    <li><strong>Zenodo/DOI:</strong> Añadir <code>sameAs</code> con el DOI institucional.</li>
+    <li><strong>OpenGraph/Twitter:</strong> Agregar etiquetas <code>og:</code> y <code>twitter:</code>.</li>
+    <li><strong>Performance:</strong> PageSpeed > 90. Usar <code>Cache-Control: public, max-age=604800</code>.</li>
+    <li><strong>Accesibilidad:</strong> Declarar <code>lang="es"</code>, usar ARIA y contraste AA mínimo.</li>
+  </ol>
+
+  <h2>Colocación recomendada</h2>
+  <ul>
+    <li><strong>index.html:</strong> Inyectar <code>schema.jsonld</code> en el <code>&lt;head&gt;</code>.</li>
+    <li><strong>documents.html y dataset.html:</strong> Repetir nodos <code>WebSite</code>, <code>CollectionPage</code> y <code>Dataset</code> con el mismo <code>@id</code>.</li>
+  </ul>
+
+  <h2>Plantillas</h2>
+
+  <h3>robots.txt</h3>
+  <pre><code>User-agent: *
 Allow: /
 Sitemap: https://geozunac3536-jpg.github.io/TCDS-PORTAL/sitemap.xml
-# Crawl-delay not standard; omit for Google. Keep fast serving and caching.
+</code></pre>
 
-```
+  <h3>sitemap.xml</h3>
+  <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"&gt;
+  &lt;url&gt;&lt;loc&gt;https://geozunac3536-jpg.github.io/TCDS-PORTAL/&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://geozunac3536-jpg.github.io/TCDS-PORTAL/dataset.html&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld&lt;/loc&gt;&lt;/url&gt;
+  &lt;url&gt;&lt;loc&gt;https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl&lt;/loc&gt;&lt;/url&gt;
+&lt;/urlset&gt;
+</code></pre>
 
-**sitemap.xml**
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/</loc></url>
-  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html</loc></url>
-  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/dataset.html</loc></url>
-  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld</loc></url>
-  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl</loc></url>
-</urlset>
-
-```
-
-**HTML `<head>` mínimo**
-```html
-<link rel="canonical" href="https://geozunac3536-jpg.github.io/TCDS-PORTAL/">
-<script type="application/ld+json" src="https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld"></script>
-<meta property="og:title" content="TCDS — Portal de Documentos">
-<meta property="og:url" content="https://geozunac3536-jpg.github.io/TCDS-PORTAL/">
-<meta name="twitter:card" content="summary_large_image">
-```
+</body>
+</html>
