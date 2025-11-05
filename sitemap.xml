@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://geozunac3536-jpg.github.io/Teoria_de_la_cromodinamica_sincronica/</loc>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://geozunac3536-jpg.github.io/Teoria_de_la_cromodinamica_sincronica/auditoria.html</loc>
-    <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/</loc></url>
+  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html</loc></url>
+  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/dataset.html</loc></url>
+  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld</loc></url>
+  <url><loc>https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl</loc></url>
 </urlset>
