@@ -1,38 +1,35 @@
 @prefix schema: <https://schema.org/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <https://geozunac3536-jpg.github.io/TCDS-PORTAL/> .
 
-<urn:tcds:project> a schema:ResearchProject ;
-  schema:name "Teoría de la Cromodinámica Sincrónica (TCDS)"@es ;
-  schema:alternateName "TMRCU", "Canon Paradigmático TCDS" ;
-  schema:url <https://geozunac3536-jpg.github.io/TCDS-PORTAL/> ;
-  schema:identifier [ a schema:PropertyValue ; schema:propertyID "doi" ; schema:value "10.5281/zenodo.17505875" ] ;
-  schema:creator <urn:tcds:org:gco> ;
-  schema:dateModified "2025-11-05"^^xsd:date ;
-  schema:keywords "TCDS","TMRCU","ΣFET","SYNCTRON","Sincronón σ","Σ-metrics","CSL-H","SAC","CNH","Isomorfismo Q–Σ–φ–χ","PPN","S-matrix","Yukawa","RE-Q","Lenguas de Arnold" ;
-  schema:funder [ a schema:MonetaryGrant ; schema:name "Simbiosis Humano–IA (autofinanciado)"@es ] ;
-  schema:measurementTechnique "Σ-metrics","κΣ–A","CSL-H","Ajuste global","S-matrix/PPN","RE-Q" ;
-  schema:variableMeasured "Σ(t)","R(t)","LI","RMSE_SL","κΣ","κΣ–A","φ(t)","Q(t)","Δf(A_c)","mσ","g","κ_H","γ_PPN","β_PPN","c4(µ,λ,g,κΣ)" ;
-  schema:isBasedOn <https://github.com/geozunac3536-jpg/TCDS-PORTAL> ;
-  prov:wasGeneratedBy [ a prov:Activity ; schema:name "Motor de formalización Σ-Trace"@es ] .
+:portal a schema:WebSite ;
+  schema:name "Portal Semántico TCDS" ;
+  schema:url : ;
+  schema:creator [
+    a schema:Person ;
+    schema:name "Genaro Carrasco Ozuna" ;
+    schema:identifier <https://orcid.org/0009-0005-6358-9910> ;
+    schema:affiliation "Proyecto TCDS / MSL, México"
+  ] ;
+  schema:license <https://creativecommons.org/licenses/by/4.0/> , <https://opensource.org/licenses/MIT> ;
+  schema:sameAs <https://doi.org/10.5281/zenodo.17505875> ;
+  schema:hasPart :documents , :dataset .
 
-<urn:tcds:dataset> a schema:Dataset ;
-  schema:name "TCDS — Corpus Integral (Ontología, Formalismo, Ingeniería, Rigor y Cierre)"@es ;
-  schema:identifier [ a schema:PropertyValue ; schema:propertyID "doi" ; schema:value "10.5281/zenodo.17505875" ] ;
-  schema:creator <urn:tcds:org:gco> ;
-  schema:dateModified "2025-11-05"^^xsd:date ;
+:documents a schema:CollectionPage ;
+  schema:name "Documentos TCDS" ;
+  schema:about "Compendio técnico y teórico del corpus TCDS" ;
+  schema:license <https://creativecommons.org/licenses/by/4.0/> , <https://opensource.org/licenses/MIT> .
+
+:dataset a schema:Dataset ;
+  schema:name "Corpus Integral TCDS / TMRCU / Σ-FET" ;
+  schema:creator [
+    a schema:Person ;
+    schema:name "Genaro Carrasco Ozuna" ;
+    schema:identifier <https://orcid.org/0009-0005-6358-9910>
+  ] ;
   schema:license <https://creativecommons.org/licenses/by/4.0/> ;
-  schema:isPartOf <urn:tcds:project> ;
-  schema:includedInDataCatalog <https://geozunac3536-jpg.github.io/TCDS-PORTAL/> ;
-  dct:hasVersion "v1.0-2025-11-05" ;
+  schema:keywords "TCDS", "TMRCU", "ΣFET", "SYNCTRON", "CSL-H", "Coherencia", "Isomorfismo Causal" ;
   schema:distribution [
     a schema:DataDownload ;
-    schema:encodingFormat "application/ld+json" ;
-    schema:contentUrl <https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld>
+    schema:encodingFormat "text/turtle" ;
+    schema:contentUrl <https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl>
   ] .
-
-<urn:tcds:org:gco> a schema:Person ;
-  schema:name "Genaro Carrasco Ozuna" ;
-  schema:affiliation "Proyecto TCDS / MSL, México" ;
-  schema:url <https://geozunac3536-jpg.github.io/TCDS-PORTAL/> .
