@@ -9,9 +9,9 @@
     "affiliation": "Proyecto TCDS / MSL, México"
   },
   "license": [
-    "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "Propietaria (hardware y dispositivos experimentales)"
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
   ],
-  "identifier": "https://doi.org/10.5281/zenodo.17520491",
-  "description": "Blindaje legal del corpus TCDS. Licencia dual: CC BY-NC-SA para teoría, propietaria para hardware. Autoría canónica con ORCID y DOI institucional."
+  "identifier": "https://doi.org/10.5281/zenodo.17505875",
+  "description": "Blindaje legal del corpus TCDS. Licencia dual: CC BY 4.0 para teoría, MIT para hardware/software. Autoría canónica con ORCID y DOI institucional."
 }
