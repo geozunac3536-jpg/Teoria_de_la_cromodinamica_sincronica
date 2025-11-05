@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+  "name": "Portal Semántico TCDS",
+  "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910",
+    "affiliation": "Proyecto TCDS / MSL, México"
+  },
+  "license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "sameAs": "https://doi.org/10.5281/zenodo.17505875",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "hasPart": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html",
+      "name": "Documentos TCDS",
+      "about": "Compendio técnico y teórico del corpus TCDS",
+      "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://opensource.org/licenses/MIT"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://doi.org/10.5281/zenodo.17505875",
+      "name": "Corpus Integral TCDS / TMRCU / Σ-FET",
+      "creator": {
+        "@type": "Person",
+        "name": "Genaro Carrasco Ozuna",
+        "identifier": "https://orcid.org/0009-0005-6358-9910"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "keywords": [
+        "TCDS", "TMRCU", "ΣFET", "SYNCTRON", "CSL-H", "Coherencia", "Isomorfismo Causal"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "text/turtle",
+        "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl"
+      }
+    }
+  ]
+}
