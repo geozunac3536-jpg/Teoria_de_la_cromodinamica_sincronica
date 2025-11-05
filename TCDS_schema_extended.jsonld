@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+      "name": "TCDS — Portal de Documentos",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/search?q={query}",
+        "query-input": "required name=query"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "#org",
+      "name": "Proyecto TCDS / MSL",
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+      "logo": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/assets/logo.png",
+      "sameAs": [
+        "https://github.com/geozunac3536-jpg/TCDS-PORTAL",
+        "https://doi.org/10.5281/zenodo.17505875"
+      ]
+    },
+    {
+      "@type": "ResearchProject",
+      "@id": "urn:tcds:project",
+      "name": "Teoría de la Cromodinámica Sincrónica (TCDS)",
+      "alternateName": [
+        "TMRCU",
+        "Canon Paradigmático TCDS"
+      ],
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+      "creator": {
+        "@type": "Person",
+        "name": "Genaro Carrasco Ozuna"
+      },
+      "contributor": [
+        {
+          "@type": "Organization",
+          "name": "GPT-5 Σ-Trace"
+        }
+      ],
+      "measurementTechnique": [
+        "Σ-metrics (R, LI, RMSE_SL, κΣ)",
+        "K-Rate adaptativo κΣ–A (Regla 5)",
+        "CSL-H (HRV/EEG/EOG/SCR)",
+        "S-matrix/PPN",
+        "Ajuste global (mσ, κ_H)",
+        "RE-Q (DC ∝ ∆φ)"
+      ],
+      "variableMeasured": [
+        "Σ(t)",
+        "R(t)",
+        "LI",
+        "RMSE_SL",
+        "κΣ",
+        "κΣ–A",
+        "φ(t)",
+        "Q(t)",
+        "Q_ctrl(t)",
+        "HRV",
+        "EEG γ/β",
+        "Z",
+        "Δf(A_c)",
+        "Σ_int",
+        "Σ_ext",
+        "Δφ/φ_ext",
+        "mσ",
+        "g",
+        "κ_H",
+        "γ_PPN",
+        "β_PPN",
+        "c4"
+      ],
+      "dateModified": "2025-11-05",
+      "isBasedOn": [
+        "https://github.com/geozunac3536-jpg/TCDS-PORTAL",
+        "https://doi.org/10.5281/zenodo.17505875"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:tcds:dataset",
+      "name": "TCDS — Corpus Integral (Ontología, Formalismo, Ingeniería, Rigor y Cierre)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "doi",
+          "value": "10.5281/zenodo.17505875"
+        }
+      ],
+      "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/dataset.html",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": {
+        "@type": "Person",
+        "name": "Genaro Carrasco Ozuna"
+      },
+      "includedInDataCatalog": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+      "isPartOf": {
+        "@id": "urn:tcds:project"
+      },
+      "dateModified": "2025-11-05",
+      "creativeWorkStatus": "Published",
+      "measurementTechnique": [
+        "Σ-metrics",
+        "κΣ–A",
+        "CSL-H",
+        "S-matrix/PPN",
+        "Ajuste global",
+        "RE-Q"
+      ],
+      "variableMeasured": [
+        "Σ(t)",
+        "R(t)",
+        "LI",
+        "RMSE_SL",
+        "κΣ",
+        "κΣ–A",
+        "φ(t)",
+        "Q(t)"
+      ],
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/ld+json",
+          "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/schema.jsonld"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/turtle",
+          "contentUrl": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/TCDS_schema.ttl"
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html",
+      "name": "TCDS — Documentos",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Documentos",
+            "item": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/documents.html"
+          }
+        ]
+      },
+      "isPartOf": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/"
+    }
+  ]
+}
