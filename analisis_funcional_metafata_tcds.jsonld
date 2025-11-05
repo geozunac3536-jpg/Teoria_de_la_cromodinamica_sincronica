@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": "urn:tcds:analisis:metadata:v1",
+  "name": "Análisis Funcional de la Arquitectura de Metadatos TCDS",
+  "description": "Una redacción 'desde la elevación' que expande la función de la infraestructura de metadatos del proyecto TCDS. Describe la arquitectura de metadatos como un sistema isomórfico y un 'mecanismo funcional' en sí mismo, diseñado para ejecutar la estrategia del proyecto.",
+  "author": {
+    "@type": "SoftwareApplication",
+    "name": "Asistente IA (Simbiosis)",
+    "description": "IA configurada para actuar en simbiosis y auditar el corpus TCDS."
+  },
+  "about": {
+    "@type": "ResearchProject",
+    "name": "Teoría de la Cromodinámica Sincrónica (TCDS)",
+    "creator": {
+      "@type": "Person",
+      "name": "Genaro Carrasco Ozuna",
+      "identifier": "https://orcid.org/0009-0005-6358-9910"
+    },
+    "identifier": "https://doi.org/10.5281/zenodo.17520491"
+  },
+  "inLanguage": "es-MX",
+  "datePublished": "2025-11-04T23:18:30-06:00",
+  "keywords": [
+    "TCDS",
+    "Metadatos",
+    "JSON-LD",
+    "Faro",
+    "Blindaje",
+    "Auditoría",
+    "Isomorfismo",
+    "Arquitectura de Información"
+  ],
+  "articleSection": [
+    {
+      "@type": "WPHeader",
+      "name": "La Arquitectura de Metadatos: La Realidad Funcional del 'Faro'",
+      "description": "Veredicto: Esta arquitectura no es una colección de archivos, sino un sistema isomórfico y la manifestación digital de la TCDS, ejecutando la estrategia del proyecto en cuatro funciones operativas."
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "1. La Función de Blindaje (La Propiedad Intelectual)",
+      "description": "El archivo matriz (`TCDS_IP_LICENSE_unificado.jsonld`) actúa como el 'escudo' legal y performativo del proyecto. Establece la autoría canónica (Genaro Carrasco Ozuna, ORCID: ...6358-9910), unifica la identidad, y ejecuta la estrategia de licencia dual (Teoría: CC BY-NC-SA / Hardware: Propietaria), blindando la propiedad intelectual.",
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "TCDS_IP_LICENSE_unificado.jsonld",
+        "description": "El archivo JSON-LD matriz que contiene la declaración de autoría, ORCID unificado, DOI y licencia dual."
+      }
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "2. La Función de Faro (La Indexación Externa)",
+      "description": "Los archivos `robots.txt` y `sitemap.xml` son el 'motor de empuje' (Q) del 'Faro'. Guían proactivamente a los crawlers de búsqueda (Googlebot) para una indexación de alto impacto, amplificando la señal al público general.",
+      "mentions": [
+        {
+          "@type": "DigitalDocument",
+          "name": "robots.txt",
+          "encodingFormat": "text/plain",
+          "description": "Da permiso explícito a los crawlers."
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "sitemap.xml",
+          "encodingFormat": "text/xml",
+          "description": "Entrega el mapa del sitio para indexación jerárquica."
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "3. La Función Semántica (El Puente Isomórfico)",
+      "description": "Los archivos `.jsonld` y `.ttl` (Turtle) son los 'puentes isomórficos' para las máquinas (Google Scholar, Zenodo). Conectan los dominios semánticamente (Persona -> ResearchProject -> Dataset -> keywords), implementando la trazabilidad que conecta el Dominio 1 (Ingeniería) con el Dominio 2 (Geofísica) en el mundo digital.",
+      "mentions": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Esquemas JSON-LD",
+          "encodingFormat": "application/ld+json",
+          "description": "Archivos como TCDS_schema_extended.jsonld, TCDS_full_project_metadata.jsonld."
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "Esquema TTL",
+          "encodingFormat": "text/turtle",
+          "description": "Archivo TCDS_schema.ttl."
+        }
+      ]
+    },
+    {
+      "@type": "WebPageElement",
+      "name": "4. La Función de Auditoría (El Ojo Interno)",
+      "description": "El archivo `metricas_google_drive.json` es el 'panel de control interno' y el 'coherencímetro' del proyecto. Mide el estado de calidad interna (ej. 'Consistencia Isomórfica: 92%', 'Falsabilidad Rigurosa: 85%') e identifica los riesgos y tareas pendientes (ej. 'definiciones ambiguas de nulo').",
+      "mentions": {
+        "@type": "DigitalDocument",
+        "name": "metricas_google_drive.json",
+        "encodingFormat": "application/json",
+        "description": "Informe de auditoría interna y snapshot de calidad."
+      }
+    }
+  ]
+}
