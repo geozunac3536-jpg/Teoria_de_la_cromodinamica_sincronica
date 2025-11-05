@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17520491.svg)](https://doi.org/10.5281/zenodo.17520491)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17529310.svg)](https://doi.org/10.5281/zenodo.17529310)
 #📘 README — Portal Semántico, Legal y Operativo TCDS
 📌 Objetivo
 Maximizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS mediante metadatos interoperables, licencias duales y arquitectura indexable por motores semánticos, comités técnicos y agentes GPT.
