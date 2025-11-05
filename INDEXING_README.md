@@ -2,7 +2,7 @@
 
 ## Objetivo
 Maximizar descubribilidad en Google, Bing, y crawlers de IA, preservando trazabilidad Σ-metrics.
-
+<script type="application/ld+json" src="TCDS_IP_LICENSE_unificado.jsonld"></script>
 ## Pasos
 1. **Schema unificado**: publique `TCDS_schema_extended.jsonld` en `/schema.jsonld` y enlácelo en `<head>`.
 2. **RDF paralelo**: publique `TCDS_schema.ttl` y enlace desde `schema.jsonld` (`distribution`).
