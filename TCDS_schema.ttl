@@ -11,7 +11,7 @@
     schema:affiliation "Proyecto TCDS / MSL, México"
   ] ;
   schema:license <https://creativecommons.org/licenses/by/4.0/> , <https://opensource.org/licenses/MIT> ;
-  schema:sameAs <https://doi.org/10.5281/zenodo.17505875> ;
+  schema:sameAs <https://doi.org/10.5281/zenodo.17505875> , <https://ko-fi.com/genarocarrascoozuna> ;
   schema:hasPart :documents , :dataset .
 
 :documents a schema:CollectionPage ;
