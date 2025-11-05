@@ -14,12 +14,10 @@
     "https://creativecommons.org/licenses/by/4.0/",
     "https://opensource.org/licenses/MIT"
   ],
-  "sameAs": "https://doi.org/10.5281/zenodo.17505875",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.17505875",
+    "https://ko-fi.com/genarocarrascoozuna"
+  ],
   "hasPart": [
     {
       "@type": "CollectionPage",
