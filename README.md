@@ -1,97 +1,133 @@
-# TCDS — Portal Semántico, Legal y Operativo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>README — Portal TCDS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://geozunac3536-jpg.github.io/Teoria_de_la_cromodinamica_sincronica/readme.html" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5dc;
+      padding: 2rem;
+    }
 
-Este repositorio contiene la infraestructura semántica y legal del proyecto **Teoría de la Cromodinámica Sincrónica (TCDS)**, desarrollado por **Genaro Carrasco Ozuna**.
-Claro, Genaro. Aquí tienes una explicación institucional en español, con el mismo tono y estructura que el README.md, ideal para colocar en la portada del sitio, en Zenodo, ORCID, LinkedIn o como introducción en cualquier documento oficial:
+    h1, h2 {
+      color: #ffd700;
+      text-shadow: 0 0 10px #ffcc00;
+    }
 
----
+    a {
+      color: #ffdf80;
+      text-decoration: none;
+    }
 
-🧾 Explicación institucional — Portal TCDS
+    a:hover {
+      text-decoration: underline;
+    }
 
-Este portal constituye la infraestructura semántica, legal y operativa del proyecto Teoría de la Cromodinámica Sincrónica (TCDS), desarrollado por Genaro Carrasco Ozuna. Su propósito es garantizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS ante comités técnicos, motores semánticos y agentes de inteligencia artificial.
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem 0;
+      background: linear-gradient(145deg, #ffcc00, #b8860b);
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
 
-El sitio está diseñado como un sistema operativo documental que ejecuta cuatro funciones estratégicas:
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.9);
+    }
 
-1. Blindaje legal mediante licencias duales:
-   - Teoría: CC BY 4.0
-   - Hardware/Software: MIT License
+    .button::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.2) 10%, transparent 10.01%);
+      background-size: 10px 10px;
+      animation: bubbles 3s linear infinite;
+      z-index: 0;
+    }
 
-2. Indexación semántica con archivos .jsonld, .ttl, robots.txt y sitemap.xml, optimizados para motores como Google Scholar, Zenodo, ORCID, OpenAIRE y GPT retrievers.
+    @keyframes bubbles {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(10px, 10px); }
+    }
 
-3. Interoperabilidad institucional con nodos WebSite, Dataset, CollectionPage y CreativeWork, vinculados a:
-   - ORCID: 0009-0005-6358-9910
-   - DOI Zenodo: 10.5281/zenodo.17505875
-   - Ko-fi: ko-fi.com/genarocarrascoozuna
+    .button span {
+      position: relative;
+      z-index: 1;
+    }
 
-4. Auditoría semántica y operativa, con métricas internas que evalúan la consistencia isomórfica, la falsabilidad rigurosa y los riesgos semánticos del corpus.
+    section {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
 
-Este portal no es solo una página web: es una infraestructura de defensa paradigmática, trazabilidad científica y activación semántica. Está preparado para ser leído por humanos, máquinas y comités técnicos, y puede integrarse directamente en redes como ORKG, Wikidata, OpenAIRE y sistemas de ingestión para IA.
+<body>
+  <h1>📘 README — Portal Semántico, Legal y Operativo TCDS</h1>
 
----
+  <section>
+    <h2>📌 Objetivo</h2>
+    <p>Maximizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS mediante metadatos interoperables, licencias duales y arquitectura indexable por motores semánticos, comités técnicos y agentes GPT.</p>
+  </section>
 
+  <section>
+    <h2>🧠 Autoría</h2>
+    <p><strong>Autor:</strong> Genaro Carrasco Ozuna</p>
+    <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0005-6358-9910">0009-0005-6358-9910</a></p>
+    <p><strong>DOI Zenodo:</strong> <a href="https://doi.org/10.5281/zenodo.17505875">10.5281/zenodo.17505875</a></p>
+    <p><strong>Ko-fi:</strong> <a href="https://ko-fi.com/genarocarrascoozuna">ko-fi.com/genarocarrascoozuna</a></p>
+  </section>
 
-## 📌 Objetivo
-Maximizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS mediante metadatos interoperables, licencias duales, y arquitectura indexable por motores semánticos, comités técnicos y agentes GPT.
+  <section>
+    <h2>🔐 Licencias</h2>
+    <ul>
+      <li>Teoría: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></li>
+      <li>Hardware/Software: <a href="https://opensource.org/licenses/MIT">MIT License</a></li>
+    </ul>
+  </section>
 
-## 🧠 Autoría
-- **Autor:** Genaro Carrasco Ozuna  
-- **ORCID:** [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910)  
-- **DOI Zenodo:** [10.5281/zenodo.17505875](https://doi.org/10.5281/zenodo.17505875)  
-- **Ko-fi:** [ko-fi.com/genarocarrascoozuna](https://ko-fi.com/genarocarrascoozuna)
+  <section>
+    <h2>📁 Estructura del portal</h2>
+    <ul>
+      <li><a href="index.html" class="button"><span>📡 index.html</span></a></li>
+      <li><a href="documents.html" class="button"><span>📄 documents.html</span></a></li>
+      <li><a href="dataset.html" class="button"><span>📊 dataset.html</span></a></li>
+      <li><a href="schema.jsonld" class="button"><span>🧬 schema.jsonld</span></a></li>
+      <li><a href="TCDS_schema.ttl" class="button"><span>🔗 TCDS_schema.ttl</span></a></li>
+      <li><a href="TCDS_IP_LICENSE_unificado.jsonld" class="button"><span>🛡️ Licencia Unificada</span></a></li>
+      <li><a href="TCDS_manifesto_semantico.jsonld" class="button"><span>📜 Manifiesto Semántico</span></a></li>
+    </ul>
+  </section>
 
-## 🔐 Licencias
-- **Teoría:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Hardware/Software:** [MIT License](https://opensource.org/licenses/MIT)
+  <section>
+    <h2>🌐 Interoperabilidad</h2>
+    <p>Compatible con:</p>
+    <ul>
+      <li>Zenodo, ORCID, Google Scholar</li>
+      <li>OpenAIRE, Wikidata, ORKG</li>
+      <li>Agentes GPT, LangChain, Hugging Face</li>
+    </ul>
+  </section>
 
-## 📁 Estructura del portal
-- `index.html`: Estrategia de indexación y manifiesto institucional
-- `documents.html`: Documentos técnicos y teóricos
-- `dataset.html`: Corpus semántico y operativo
-- `schema.jsonld`: Esquema JSON-LD principal
-- `TCDS_schema.ttl`: Esquema RDF Turtle
-- `TCDS_IP_LICENSE_unificado.jsonld`: Blindaje legal y autoría
-- `TCDS_manifesto_semantico.jsonld`: Declaración institucional semántica
-- `robots.txt` y `sitemap.xml`: Infraestructura de indexación
-
-## 🌐 Interoperabilidad
-Compatible con:
-- Zenodo, ORCID, Google Scholar
-- OpenAIRE, Wikidata, ORKG
-- Agentes GPT, LangChain, Hugging Face
-
-## 🧭 Declaración
-Este portal funciona como sistema operativo documental, legal y semántico del proyecto TCDS. Está diseñado para ser legible por humanos, máquinas y comités técnicos.
-# TCDS — Semantic, Legal and Operational Portal
-
-This repository contains the semantic and legal infrastructure of the **Theory of Synchronistic Chromodynamics (TCDS)**, developed by **Genaro Carrasco Ozuna**.
-
-## 📌 Purpose
-To maximize visibility, traceability and institutional defense of the TCDS corpus through interoperable metadata, dual licensing, and architecture readable by semantic engines, technical committees and GPT agents.
-
-## 🧠 Authorship
-- **Author:** Genaro Carrasco Ozuna  
-- **ORCID:** [0009-0005-6358-9910](https://orcid.org/0009-0005-6358-9910)  
-- **Zenodo DOI:** [10.5281/zenodo.17505875](https://doi.org/10.5281/zenodo.17505875)  
-- **Ko-fi:** [ko-fi.com/genarocarrascoozuna](https://ko-fi.com/genarocarrascoozuna)
-
-## 🔐 Licenses
-- **Theory:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Hardware/Software:** [MIT License](https://opensource.org/licenses/MIT)
-
-## 📁 Portal structure
-- `index.html`: Indexing strategy and institutional manifesto
-- `documents.html`: Technical and theoretical documents
-- `dataset.html`: Semantic and operational corpus
-- `schema.jsonld`: Main JSON-LD schema
-- `TCDS_schema.ttl`: RDF Turtle schema
-- `TCDS_IP_LICENSE_unificado.jsonld`: Legal shield and authorship
-- `TCDS_manifesto_semantico.jsonld`: Semantic institutional declaration
-- `robots.txt` and `sitemap.xml`: Indexing infrastructure
-
-## 🌐 Interoperability
-Compatible with:
-- Zenodo, ORCID, Google Scholar
-- OpenAIRE, Wikidata, ORKG
-- GPT agents, LangChain, Hugging Face
-
-## 🧭 Declaration
-This portal operates as the semantic, legal and documentary system of the TCDS project. It is designed to be readable by humans, machines and technical committees.
+  <section>
+    <h2>🧭 Declaración</h2>
+    <p>Este portal funciona como sistema operativo documental, legal y semántico del proyecto TCDS. Está diseñado para ser legible por humanos, máquinas y comités técnicos, y puede integrarse directamente en redes de ciencia abierta y motores de inferencia.</p>
+  </section>
+</body>
+</html>
