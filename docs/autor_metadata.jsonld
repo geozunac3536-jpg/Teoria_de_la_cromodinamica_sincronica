@@ -1,29 +1,96 @@
 {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://orcid.org/0009-0005-6358-9910",
-  "name": "Genaro Carrasco Ozuna",
-  "givenName": "Genaro",
-  "familyName": "Carrasco Ozuna",
-  "description": "Investigador y autor de la Teoría Cromodinámica Sincrónica (TCDS), un marco físico unificado basado en el isomorfismo causal y el equilibrio Q·Σ=φ.",
-  
-  // --- El "Blindaje" de Identidad ---
-  // Conecta este perfil con sus otros perfiles autorizados.
-  "sameAs": [
-    "https://orcid.org/0009-0005-6358-9910",
-    "https://zenodo.org/records/17520491"
-  ],
-  
-  // --- El "Blindaje" de Trabajo (Qué posee) ---
-  // Identifica el trabajo principal del que esta persona es autora.
-  "mainEntityOfPage": {
-    "@type": "Dataset",
-    "@id": "https://doi.org/10.5281/zenodo.17520491",
-    "name": "Inversion de Fase de la TCDS"
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
   },
-
-  // --- El "Faro" (Dónde está ahora) ---
-  // Identifica el sitio web principal de esta persona.
-  // DEBE ACTUALIZAR ESTA URL A SU DOMINIO FINAL.
-  "url": "https://tcds-faro.github.io" 
+  "@type": ["CreativeWork", "License", "ResearchProject"],
+  "name": "Teoría de la Cromodinámica Sincrónica (TCDS)",
+  "alternateName": [
+    "TMRCU",
+    "Canon Paradigmático TCDS",
+    "ΣFET / SYNCTRON",
+    "Campo Σ–χ",
+    "CSL-H",
+    "Ley de Balance Coherencial Universal (LBCU)"
+  ],
+  "description": "Declaración de autoría, derechos intelectuales y licenciamiento integral del proyecto científico-filosófico Teoría de la Cromodinámica Sincrónica (TCDS), su formalismo Σ–χ, el transistor ΣFET/SYNCTRON, los protocolos CSL-H, RE-Q, coherencímetro y toda la obra escrita y digital asociada. Este documento vincula la autoría directa y la protección jurídica bajo tratados internacionales de derecho de autor y propiedad intelectual. El presente JSON-LD actúa como declaración de propiedad intelectual digital conforme a los estándares de schema.org y W3C-PROV, vinculando las obras, repositorios y DOI asociados al proyecto TCDS.",
+  "creator": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "affiliation": "Proyecto TCDS / Motor Sincrónico de Luz (MSL), México",
+    "identifier": "https://orcid.org/0009-0005-6358-9910",
+    "email": "mailto:genarocarrasco.ozuna@gmail.com",
+    "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/"
+  },
+  "copyrightHolder": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+  "copyrightNotice": "© 2025 Genaro Carrasco Ozuna — Todos los derechos reservados.",
+  "license": [
+    {
+      "@type": "CreativeWork",
+      "name": "Licencia general de la Teoría de la Cromodinámica Sincrónica (TCDS)",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "text": "El contenido teórico, literario y gráfico de la TCDS se distribuye bajo licencia Creative Commons BY-NC-SA 4.0 (uso no comercial, con atribución y compartición igual). Cualquier derivado debe reconocer la autoría de Genaro Carrasco Ozuna y mantener las mismas condiciones de licencia.",
+      "spatialCoverage": "México",
+      "temporalCoverage": "2025-∞"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Licencia restringida de invención ΣFET / SYNCTRON / RE-Q",
+      "text": "El hardware, firmware y software asociados al ΣFET, coherencímetro, banco RE-Q y demás implementaciones instrumentales quedan bajo reserva de patente y derechos de diseño industrial. Su uso comercial o con fines de producción requiere consentimiento escrito del autor, Genaro Carrasco Ozuna.",
+      "license": "Propietaria / patente en trámite (registro nacional e internacional)",
+      "usageInfo": "Uso educativo, de investigación y demostración autorizado; uso comercial sujeto a contrato formal firmado con el autor."
+    }
+  ],
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "DOI", "value": "10.5281/zenodo.17520491" },
+    { "@type": "PropertyValue", "propertyID": "GitHub", "value": "https://github.com/geozunac3536-jpg" },
+    { "@type": "PropertyValue", "propertyID": "Zenodo", "value": "https://doi.org/10.5281/zenodo.17520491" }
+  ],
+  "prov:wasAttributedTo": {
+    "@type": "Person",
+    "name": "Genaro Carrasco Ozuna",
+    "identifier": "https://orcid.org/0009-0005-6358-9910"
+  },
+  "prov:generatedAtTime": "2025-11-05",
+  "prov:wasDerivedFrom": {
+    "@type": "Dataset",
+    "name": "Corpus Integral TCDS/TMRCU/ΣFET/CSL-H",
+    "url": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/"
+  },
+  "jurisdiction": "México",
+  "isBasedOn": "https://geozunac3536-jpg.github.io/TCDS-PORTAL/",
+  "keywords": [
+    "TCDS",
+    "TMRCU",
+    "ΣFET",
+    "SYNCTRON",
+    "Sincronón σ",
+    "Campo Σ–χ",
+    "Coherencia",
+    "CSL-H",
+    "LBCU",
+    "Canon Paradigmático",
+    "Isomorfismo Causal Q–Σ–φ–χ",
+    "Propiedad Intelectual",
+    "Derechos de Autor",
+    "Patentes Científicas",
+    "Genaro Carrasco Ozuna",
+    "Motor Sincrónico de Luz",
+    "Filosofía de la Coherencia"
+  ],
+  "audience": [
+    { "@type": "Audience", "audienceType": "Comunidad científica y académica" },
+    { "@type": "Audience", "audienceType": "Instituciones legales y de registro de propiedad intelectual" },
+    { "@type": "Audience", "audienceType": "Organismos internacionales de propiedad industrial (WIPO, INDAUTOR, OMPI)" }
+  ],
+  "version": "1.0",
+  "dateCreated": "2025-09-16",
+  "dateModified": "2025-11-05",
+  "encodingFormat": "application/ld+json",
+  "inLanguage": "es",
+  "citation": "Carrasco Ozuna, G. (2025). Inversion de Fase de la TCDS. Zenodo. https://doi.org/10.5281/zenodo.17520491"
 }
