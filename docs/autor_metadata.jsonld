@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://orcid.org/0009-0005-6358-9910",
+  "name": "Genaro Carrasco Ozuna",
+  "givenName": "Genaro",
+  "familyName": "Carrasco Ozuna",
+  "description": "Investigador y autor de la Teoría Cromodinámica Sincrónica (TCDS), un marco físico unificado basado en el isomorfismo causal y el equilibrio Q·Σ=φ.",
+  
+  // --- El "Blindaje" de Identidad ---
+  // Conecta este perfil con sus otros perfiles autorizados.
+  "sameAs": [
+    "https://orcid.org/0009-0005-6358-9910",
+    "https://zenodo.org/records/17520491"
+  ],
+  
+  // --- El "Blindaje" de Trabajo (Qué posee) ---
+  // Identifica el trabajo principal del que esta persona es autora.
+  "mainEntityOfPage": {
+    "@type": "Dataset",
+    "@id": "https://doi.org/10.5281/zenodo.17520491",
+    "name": "Inversion de Fase de la TCDS"
+  },
+
+  // --- El "Faro" (Dónde está ahora) ---
+  // Identifica el sitio web principal de esta persona.
+  // DEBE ACTUALIZAR ESTA URL A SU DOMINIO FINAL.
+  "url": "https://tcds-faro.github.io" 
+}
