@@ -10,11 +10,12 @@
   "about": {
     "@type": "ResearchProject",
     "name": "Teoría de la Cromodinámica Sincrónica (TCDS)",
-    "identifier": "https://doi.org/10.5281/zenodo.17520491"
+    "identifier": "https://doi.org/10.5281/zenodo.17505875"
   },
   "description": "Este manifiesto declara que el sitio TCDS está diseñado para ser legible por agentes GPT, motores semánticos, comités técnicos y plataformas de ciencia abierta. Su arquitectura ejecuta funciones operativas: blindaje legal, indexación estratégica, interoperabilidad semántica y auditoría interna.",
   "license": [
-    "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "Propietaria (hardware)"
-  ]
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
+  ],
+  "sameAs": "https://ko-fi.com/genarocarrascoozuna"
 }
