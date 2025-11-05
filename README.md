@@ -1,6 +1,33 @@
 # TCDS — Portal Semántico, Legal y Operativo
 
 Este repositorio contiene la infraestructura semántica y legal del proyecto **Teoría de la Cromodinámica Sincrónica (TCDS)**, desarrollado por **Genaro Carrasco Ozuna**.
+Claro, Genaro. Aquí tienes una explicación institucional en español, con el mismo tono y estructura que el README.md, ideal para colocar en la portada del sitio, en Zenodo, ORCID, LinkedIn o como introducción en cualquier documento oficial:
+
+---
+
+🧾 Explicación institucional — Portal TCDS
+
+Este portal constituye la infraestructura semántica, legal y operativa del proyecto Teoría de la Cromodinámica Sincrónica (TCDS), desarrollado por Genaro Carrasco Ozuna. Su propósito es garantizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS ante comités técnicos, motores semánticos y agentes de inteligencia artificial.
+
+El sitio está diseñado como un sistema operativo documental que ejecuta cuatro funciones estratégicas:
+
+1. Blindaje legal mediante licencias duales:
+   - Teoría: CC BY 4.0
+   - Hardware/Software: MIT License
+
+2. Indexación semántica con archivos .jsonld, .ttl, robots.txt y sitemap.xml, optimizados para motores como Google Scholar, Zenodo, ORCID, OpenAIRE y GPT retrievers.
+
+3. Interoperabilidad institucional con nodos WebSite, Dataset, CollectionPage y CreativeWork, vinculados a:
+   - ORCID: 0009-0005-6358-9910
+   - DOI Zenodo: 10.5281/zenodo.17505875
+   - Ko-fi: ko-fi.com/genarocarrascoozuna
+
+4. Auditoría semántica y operativa, con métricas internas que evalúan la consistencia isomórfica, la falsabilidad rigurosa y los riesgos semánticos del corpus.
+
+Este portal no es solo una página web: es una infraestructura de defensa paradigmática, trazabilidad científica y activación semántica. Está preparado para ser leído por humanos, máquinas y comités técnicos, y puede integrarse directamente en redes como ORKG, Wikidata, OpenAIRE y sistemas de ingestión para IA.
+
+---
+
 
 ## 📌 Objetivo
 Maximizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS mediante metadatos interoperables, licencias duales, y arquitectura indexable por motores semánticos, comités técnicos y agentes GPT.
