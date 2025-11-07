@@ -2,7 +2,7 @@
 #📘 README — Portal Semántico, Legal y Operativo TCDS
 📌 Objetivo
 Maximizar la visibilidad, trazabilidad y defensa institucional del corpus TCDS mediante metadatos interoperables, licencias duales y arquitectura indexable por motores semánticos, comités técnicos y agentes GPT.
-
+Nodo central: https://geozunac3536-jpg.github.io/TCDS-Convergencia/
 🧠 Autoría
 Autor: Genaro Carrasco Ozuna
 
